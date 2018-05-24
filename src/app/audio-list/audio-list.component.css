@@ -1,0 +1,7 @@
+img{
+    width:30px;
+    float:right;
+}
+mat-card.mat-card.last {
+    margin-bottom: 40px !important;
+}

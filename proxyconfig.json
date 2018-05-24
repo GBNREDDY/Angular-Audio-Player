@@ -1,0 +1,7 @@
+{
+    "/ramadhan/":{
+        "target":"https://www.landsman.in",
+        "secure":false,
+        "changeOrigin":true
+    }
+}

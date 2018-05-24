@@ -1,0 +1,10 @@
+<!-- <table>
+<mat-card *ngFor="let record of records">
+  <tr>
+  <td>{{record.name}}</td>
+  <td><img [src]="'assets/img/play.png'" alt="image" (click)= "onRecordClick(record)" width="20px"/></td>
+</tr>
+</mat-card>
+</table> -->
+
+<mat-card *ngFor="let record of records; let lastRecord = last" [ngClass]="{last:lastRecord}" >{{record.name}}<img [src]="'assets/img/play.png'" (click)= "onRecordClick(record.link)" alt="image"></mat-card>
